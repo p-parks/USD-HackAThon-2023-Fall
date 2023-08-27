@@ -26,4 +26,4 @@ The missing values are imputed using sklearn SimpleImputer.
 1. I ran most of the common sklearn models and picked the model with the highest accuracy. This ended up being the GradientBoostingClassifier.
 2. From there, I started trying to tune the model by running GridSearchCV and RandomizedSearchCV. GridSearchCV ended up being too time consuming for my schedule so I used RandomizedSearchCV. 
 3. After tuning and seeing good results from GradientBoostingClassifier I decided to go back and see if I could tune any of the other sklean models to get better results. I found the results RandomForestClassifier performed well and decided to try the StackingClassifier to see if both models would perform even better when ran together. This slightly improved the score. Finally, I read about optimized Gradient Boosting and decided to try out XGBoost. 
-4. I tried improving the value imputation and feature selection but did not see very much improvement in the model. 
+4. I tried improving the value imputation but did not see very much improvement in the model. I made small changes to the features for age > 21 and fixed holidays. 
