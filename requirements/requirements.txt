@@ -4,3 +4,4 @@ numpy==1.23.4
 feature-engine==1.6.1
 jupyterlab==4.0.5
 notebook==7.0.2
+xgboost==1.7.3
