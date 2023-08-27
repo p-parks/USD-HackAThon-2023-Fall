@@ -7,6 +7,9 @@ https://github.com/readytensor/usd-hackathon-fars-template-jupyter-notebook/
 
 See the above link for information on docker and folder structure. 
 
+The dataset used in the Hackathon can be found here: 
+https://github.com/readytensor/rt-datasets-fars
+
 # Model Details
 
 The model used is an sklearn StackingClassifier which uses 3 base classifiers:
